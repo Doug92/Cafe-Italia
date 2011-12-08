@@ -1,0 +1,20 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  ingredients: MyText
+  image_url: MyString
+  price: 9.99
+
+two:
+  name: MyString
+  ingredients: MyText
+  image_url: MyString
+  price: 9.99
+
+pizza:
+  name: Pepperoni Pizza
+  ingredients: Pepperoni, Peppers, Mushrooms, Cheese, Tomato Sauce, Herbs.
+  image_url: pepperoni pizza.jpg
+  price: 13.00
+

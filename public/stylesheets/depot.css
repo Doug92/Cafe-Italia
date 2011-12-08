@@ -1,0 +1,179 @@
+
+
+#store #notice {
+        color: white;
+        border: 2px solid red;
+        padding: 1em;
+        margin-bottom: 2em;
+        background-color:#800000;
+        font: bold smaller sans-serif;
+        font-size: 150%;
+}
+
+
+#store h1 {
+        font:  150% sans-serif;
+        color: #800000;
+        border-bottom: 2px dotted #800000;
+}
+
+/* Styles for products/index */
+
+#product_list table {
+        border-collapse: collapse;
+}
+
+#product_list table tr td {
+        padding: 5px;
+        vertical-align: top;
+}
+
+#product_list .list_image {
+  width:        80px;
+  height:       80px;
+}
+
+#product_list .list_ingredients {
+  width:        60%;
+}
+
+#product_list .list_ingredients dl {
+        margin: 0;
+}
+
+#product_list .list_ingredients dt {
+	color:        #800000;
+	font-weight:  bold;
+	font-size:    larger;
+}
+
+#product_list .list_ingredients dd {
+        margin: 0;
+}
+
+#product_list .list_actions {
+  font-size:    x-small;
+  text-align:   right;
+  padding-left: 1em;
+}
+
+#product_list .list_line_even {
+  background:   white;
+    border-bottom: 1px dotted #800000;
+
+}
+
+#product_list .list_line_odd {
+  background:  white;
+    border-bottom: 1px dotted #800000;
+
+}
+
+/* An entry in the store catalog */
+
+#store  .entry {
+  overflow: auto;
+  margin-top: 1em;
+  border-bottom: 1px dotted #800000;
+}
+
+#store  .title {
+  font-size: 120%;
+  font-family: sans-serif;
+   color: #800000;
+}
+
+#store .entry img {
+  width: 80px;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+
+#store .entry h3 {
+ margin-top: 0;
+ margin-bottom: 2px;
+ color: #800000;
+}
+
+#store .entry p {
+ margin-top: 0.5em;
+ margin-bottom: 0.8em;
+}
+
+#store .entry .price_line {
+ clear: both;
+ margin-bottom: 0.5em;
+}
+
+#store .entry .add_to_cart {
+  position: relative;
+}
+
+#store .entry  .price {
+  color: #800000;
+  font-weight: bold;
+  margin-right: 2em;
+}
+#store .entry form, #store .entry form div {
+    display:inline}
+
+#store .cart_title {
+    font: 120% bold;
+}
+
+#store .item_price, #store .total_line {
+    text-align: right;
+}
+
+#store .total_line .total_cell {
+    font-weight: bold;
+    border-top: 1px solid #595;
+
+}
+
+#banner {
+    height:200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    font:  150px "Mistral", serif;
+    color: #800000;
+    text-align: center;
+}
+
+#banner img {
+    float: left
+}
+#columns {
+    background: white;
+
+}
+#main{
+    margin-left: 17em;
+    padding-top: 4ex;
+    padding-left: 2em;
+    background: white;
+}
+
+#side {
+    height: 1500px;
+    background-color:  white;
+    float:left;
+    padding-top: 1em;
+    padding-left:1em;
+    padding-bottom: 1em;
+    width: 16em;
+    border-right: 2px solid;
+    color: #800000;
+}
+
+#side a {
+    font-size: small;
+    color: #800000;
+
+
+
+}

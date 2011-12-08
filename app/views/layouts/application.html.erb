@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cafe Italia</title>
+  <%= stylesheet_link_tag "scaffold" %>
+  <%= stylesheet_link_tag "depot", :media => "all" %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body id="store">
+
+
+  <div id="banner">
+     <%= image_tag("darkgreenred small.png") %>
+     <%= @page_title || "Cafe Italia" %>
+  </div>
+
+
+  <div id= "columns">
+    <div id="side">
+      <a href="http://www...">Link1</a><br />
+      <a href="http://www...">Link2</a><br />
+      <a href="http://www...">Link3</a><br />
+      <a href="http://www...">Link4</a><br />
+
+
+  </div>
+  <div id=main>
+
+
+    </div>
+  </div>
+
+
+<%= yield %>
+
+</body>
+</html>
